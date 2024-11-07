@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Button Background Color Based on Orientation</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (orientation: portrait) {
+    button{
+        background-color: orange;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    button{
+        background-color: teal;
+        color: white;
+    }
+}
+    </style>
+  </head>
+<body>
+    <button>Click here</button>
+</body>
+</html>
